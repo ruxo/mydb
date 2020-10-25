@@ -3,9 +3,18 @@ using RZ.App;
 using RZ.Foundation;
 using static System.Console;
 
+#region Person helpers
+
 int PersonIdComparer(Person lhs, Person rhs) => Math.Sign(lhs.Id - rhs.Id);
 
+#endregion
+
+/* * /
 var tree = new MemoryBTree<Person>(PersonIdComparer);
+/*/
+var tree = new FileBTree<Person>("data.bin", new PersonBinarySerializer(), PersonIdComparer);
+/**/
+
 char select = '\0';
 
 while ((select = Menu()) != 'Q') {
