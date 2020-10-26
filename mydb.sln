@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mydb", "mydb.csproj", "{05F58FF1-BBEF-4525-AD20-8DC58C28274B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{FABEAC7E-76B2-4D28-B2C9-7EBAF7FB3BF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05F58FF1-BBEF-4525-AD20-8DC58C28274B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F58FF1-BBEF-4525-AD20-8DC58C28274B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F58FF1-BBEF-4525-AD20-8DC58C28274B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F58FF1-BBEF-4525-AD20-8DC58C28274B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01974E62-9D81-4577-9563-B01214FDCFE3}
+	EndGlobalSection
+EndGlobal
